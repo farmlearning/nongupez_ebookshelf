@@ -284,8 +284,7 @@ export default function PdfViewer({ src, title, subtitle, tocItems }: PdfViewerP
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
-          <p className="text-gray-600 mb-2">PDF를 로드하는 중...</p>
-          <p className="text-sm text-gray-500">전체 교재를 완벽하게 로딩합니다</p>
+          <p className="text-gray-600 mb-2">가이드를 불러오고 있습니다.</p>
         </div>
       </div>
     );

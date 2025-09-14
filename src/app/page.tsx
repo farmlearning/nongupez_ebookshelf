@@ -51,12 +51,16 @@ export default function Home() {
     <>
       <header>
         <div className="container">
-          <div className="banner-space">
-            📢 웹 배너 영역<br />
-            <small>여기에 배너 광고가 표시됩니다</small>
-          </div>
           <div className="header-content">
-            <a href="#" className="logo">🌾 농업e지 활용 가이드 E-BOOKSHELF</a>
+            <a href="#" className="logo">농업e지 활용 가이드</a>
+            <a 
+              href="https://www.nongupez.go.kr/nsm/main" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="nongupez-link-btn"
+            >
+              농업e지 바로가기
+            </a>
           </div>
         </div>
       </header>
@@ -86,7 +90,7 @@ export default function Home() {
                     <div className="book-subtitle">{book.subtitle}</div>
                     <div className="book-buttons">
                       <button className="book-button">
-                        📖 책 읽기
+                        가이드 보기
                       </button>
                     </div>
                   </div>
@@ -97,6 +101,55 @@ export default function Home() {
           </main>
         </div>
       </div>
+
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-logo">
+              <a 
+                href="https://www.mafra.go.kr/sites/home/index.do" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="footer-logo-link"
+              >
+                <img 
+                  src="/images/footer/농림축산식품부 Fav.png" 
+                  alt="농림축산식품부" 
+                  className="footer-logo-img footer-logo-small"
+                />
+              </a>
+            </div>
+            <div className="footer-center">
+              <a 
+                href="https://www.nongupez.go.kr/nsm/main" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="footer-logo-link"
+              >
+                <img 
+                  src="/images/footer/농업e지 Footer.png" 
+                  alt="농업e지" 
+                  className="footer-logo-img footer-logo-small"
+                />
+              </a>
+            </div>
+            <div className="footer-logo">
+              <a 
+                href="https://www.epis.or.kr/home/kor/main.do" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="footer-logo-link"
+              >
+                <img 
+                  src="/images/footer/EPIS Fav.png" 
+                  alt="EPIS" 
+                  className="footer-logo-img footer-logo-large"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

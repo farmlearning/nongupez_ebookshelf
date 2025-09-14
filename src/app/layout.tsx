@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   title: '농업e지 eBook 뷰어',
   description: '농업e지 교재를 웹에서 열람할 수 있는 접근성 친화적 뷰어',
   keywords: ['농업e지', 'eBook', 'PDF', 'EPUB', '뷰어', '접근성'],
+  icons: {
+    icon: '/images/favicon/농업e지 Fav.png',
+    shortcut: '/images/favicon/농업e지 Fav.png',
+    apple: '/images/favicon/농업e지 Fav.png',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
