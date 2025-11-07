@@ -15,8 +15,8 @@ interface Book {
 
 // 파일명 배열에서 동적으로 책 정보 생성
 const pdfFilenames = [
-  '250808_농업e지_안내서_기존.pdf',
-  '250814_농업e지_경영체교재_기본.pdf'
+  '251027_농업e지_안내서.pdf',
+  '251020_농업e지_경영체교재_기본.pdf'
 ];
 
 const books: Book[] = pdfFilenames.map((filename, index) => ({

@@ -1,6 +1,42 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  /* 가이드라인에 따른 색상 시스템 */
+  --color-primary-orange: #FF7A00;
+  --color-primary-orange-dark: #E06400;
+  --color-accent-orange-soft: #FFE6CC;
+  --color-bg: #FFFFFF;
+  --color-surface: #FAFAFA;
+  --color-text-primary: #111111;
+  --color-text-secondary: #4D4D4D;
+  --color-border: #E6E6E6;
+  --color-focus: #FFB366;
+  --color-link: #0B63FF;
+  
+  /* 폰트 패밀리 */
+  --font-family-sans: 'Noto Sans KR', system-ui, sans-serif;
+  
+  /* 폰트 크기 */
+  --font-size-body: 1.25rem;
+  --font-size-h1: 1.8rem;
+  --font-size-h2: 1.4rem;
+  --font-size-h3: 1.2rem;
+  --font-size-caption: 1rem;
+  
+  /* 라인 높이 */
+  --line-height-body: 1.6;
+  
+  /* 보더 라디우스 */
+  --radius-2xl: 16px;
+  
+  /* 스페이싱 */
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  
+  /* 터치 영역 */
+  --min-height-touch: 44px;
+  --min-width-touch: 44px;
+}
 
 /* 기본 스타일 리셋 */
 * {
