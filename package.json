@@ -35,7 +35,7 @@
   "description": "농업e지 eBook 뷰어 - PDF/EPUB 교재를 웹에서 열람할 수 있는 접근성 친화적 뷰어",
   "devDependencies": {
     "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
+    "@types/react": "^18.3.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",
