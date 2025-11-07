@@ -282,8 +282,8 @@ export default function PdfViewer({ src, title, subtitle, tocItems }: PdfViewerP
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
+        <div className="flex flex-col items-center justify-center text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mb-20"></div>
           <p className="text-gray-600 mb-2">가이드를 불러오고 있습니다.</p>
         </div>
       </div>
