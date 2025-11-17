@@ -8,7 +8,7 @@ export interface TocData {
 }
 
 export const tocData: TocData = {
-  '251027_농업e지_안내서.pdf': [
+  '농업e지 안내 가이드_20251117 수정완료.pdf': [
     { title: '1. 농업e지 소개', page: 5 },
     { title: '2. 모바일로 간편하게 농업e지 로그인하기', page: 20 },
     { title: '3. PC로 간편하게 농업e지 로그인하기', page: 45 },

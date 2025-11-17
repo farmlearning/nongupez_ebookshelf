@@ -9,7 +9,7 @@ export function formatFileNameToTitle(filename: string): string {
   const decoded = decodeURIComponent(nameWithoutExt);
   
   // 특정 패턴에 따른 제목 변환
-  if (decoded.includes('농업e지_안내서')) {
+  if (decoded.includes('농업e지_안내서') || decoded.includes('농업e지 안내 가이드')) {
     return '농업e지 안내 가이드';
   }
   
@@ -31,7 +31,7 @@ export function formatFileNameToTitle(filename: string): string {
 export function getEmojiForFile(filename: string): string {
   const decoded = decodeURIComponent(filename);
   
-  if (decoded.includes('안내서')) {
+  if (decoded.includes('안내서') || decoded.includes('안내 가이드')) {
     return '🌱';
   }
   
@@ -49,7 +49,7 @@ export function getEmojiForFile(filename: string): string {
 export function getSubtitleForFile(filename: string): string {
   const decoded = decodeURIComponent(filename);
   
-  if (decoded.includes('안내서')) {
+  if (decoded.includes('안내서') || decoded.includes('안내 가이드')) {
     return '농업e지의 구조와 기능들을 보실 수 있습니다.';
   }
   
