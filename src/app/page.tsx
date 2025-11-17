@@ -15,7 +15,7 @@ interface Book {
 
 // 파일명 배열에서 동적으로 책 정보 생성
 const pdfFilenames = [
-  '251027_농업e지_안내서.pdf',
+  '농업e지 안내 가이드_20251117 수정완료.pdf',
   '251020_농업e지_경영체교재_기본.pdf'
 ];
 
@@ -79,7 +79,7 @@ export default function Home() {
                 >
                   <div className="book-cover">
                     <PdfThumbnail
-                      src={`/images/thumbnails/${book.filename?.includes('안내서') ? '안내가이드_썸네일.png' : book.filename?.includes('경영체') ? '농업경영체_썸네일.png' : 'default.png'}`}
+                      src={`/images/thumbnails/${book.filename?.includes('안내서') || book.filename?.includes('안내 가이드') ? '안내가이드_썸네일.png' : book.filename?.includes('경영체') ? '농업경영체_썸네일.png' : 'default.png'}`}
                       alt={book.title}
                       className="book-thumbnail"
                       fallbackEmoji={book.emoji}
