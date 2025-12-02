@@ -9,7 +9,7 @@ export function formatFileNameToTitle(filename: string): string {
   const decoded = decodeURIComponent(nameWithoutExt);
   
   // 특정 패턴에 따른 제목 변환
-  if (decoded.includes('농업e지_안내서') || decoded.includes('농업e지 안내 가이드')) {
+  if (decoded.includes('농업e지_안내서') || decoded.includes('농업e지 안내 가이드') || decoded.includes('통합교재_안내서')) {
     return '농업e지 안내 가이드';
   }
   
