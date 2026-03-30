@@ -5,6 +5,8 @@
 # 농업e지 eBook 뷰어
 
 ## 📖 프로젝트 개요
+<img width="1893" height="899" alt="스크린샷 2026-03-30 104057" src="https://github.com/user-attachments/assets/a84259a6-f755-4816-a2f5-8b1aba3339d0" />
+<img width="1908" height="866" alt="스크린샷 2026-03-30 103629" src="https://github.com/user-attachments/assets/910edb76-9a34-4488-81d7-1e5490c2caa5" />
 
 농업e지 교재들을 웹에서 쉽게 열람할 수 있는 접근성 친화적 eBook 뷰어입니다. PDF와 EPUB 형식을 지원하며, 특히 노년층을 고려한 사용자 친화적 인터페이스를 제공합니다.
 
@@ -35,9 +37,9 @@ nongupez_ebook/
 │   └── 250814_농업e지_경영체교재_기본.pdf
 ├── public/
 │   ├── guides_pdf/               # 웹 서빙용 PDF 파일
-│   ├── ebooks/                   # EPUB 파일 저장소
 │   ├── images/
-│   │   ├── banners/              # 배너 이미지
+│   │   ├── favicon/              # 파비콘 이미지
+│   │   ├── footer/               # 풋터 로고 이미지
 │   │   └── thumbnails/           # 썸네일 이미지
 │   └── pdf.worker.min.js         # PDF.js 워커 파일
 ├── src/
@@ -58,7 +60,6 @@ nongupez_ebook/
 │   └── project_guideline.yaml    # 프로젝트 가이드라인
 ├── package.json                   # 의존성 및 스크립트
 ├── next.config.js                 # Next.js 설정
-├── tailwind.config.js             # Tailwind CSS 설정
 └── tsconfig.json                  # TypeScript 설정
 ```
 
