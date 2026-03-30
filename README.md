@@ -35,9 +35,9 @@ nongupez_ebook/
 │   └── 250814_농업e지_경영체교재_기본.pdf
 ├── public/
 │   ├── guides_pdf/               # 웹 서빙용 PDF 파일
-│   ├── ebooks/                   # EPUB 파일 저장소
 │   ├── images/
-│   │   ├── banners/              # 배너 이미지
+│   │   ├── favicon/              # 파비콘 이미지
+│   │   ├── footer/               # 풋터 로고 이미지
 │   │   └── thumbnails/           # 썸네일 이미지
 │   └── pdf.worker.min.js         # PDF.js 워커 파일
 ├── src/
@@ -58,7 +58,6 @@ nongupez_ebook/
 │   └── project_guideline.yaml    # 프로젝트 가이드라인
 ├── package.json                   # 의존성 및 스크립트
 ├── next.config.js                 # Next.js 설정
-├── tailwind.config.js             # Tailwind CSS 설정
 └── tsconfig.json                  # TypeScript 설정
 ```
 
