@@ -5,6 +5,8 @@
 # 농업e지 eBook 뷰어
 
 ## 📖 프로젝트 개요
+<img width="1893" height="899" alt="스크린샷 2026-03-30 104057" src="https://github.com/user-attachments/assets/a84259a6-f755-4816-a2f5-8b1aba3339d0" />
+<img width="1908" height="866" alt="스크린샷 2026-03-30 103629" src="https://github.com/user-attachments/assets/910edb76-9a34-4488-81d7-1e5490c2caa5" />
 
 농업e지 교재들을 웹에서 쉽게 열람할 수 있는 접근성 친화적 eBook 뷰어입니다. PDF와 EPUB 형식을 지원하며, 특히 노년층을 고려한 사용자 친화적 인터페이스를 제공합니다.
 
